@@ -1,6 +1,5 @@
 ## 🚀 How to Run
-
-# 1. Create project (already done)
+`# 1. Create project (already done)
 flutter create portfolio_app
 
 # 2. Add dependencies
@@ -21,4 +20,4 @@ flutter run -d macos
 flutter build apk --release
 
 # 7. Build for web
-flutter build web
+flutter build web`
