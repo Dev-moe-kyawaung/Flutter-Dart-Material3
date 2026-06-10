@@ -44,3 +44,20 @@ ________------
 │                         │
 │  [View GitHub][Contact] │  ← Action Buttons
 └─────────────────────────┘`
+----------
+
+## 🎯 Flutter vs Kotlin Comparison
+
+✅ My Final Recommendation
+
+#Kotlin + Compose ကိုရေးပြီးမှ Flutter ကိုစမ်းပါ။ အကြောင်း:
+#Kotlin = Native Android Expert ရှေ့ပြင် (Android Seniorအတွက်အားဆုံး)
+#Flutter = Cross-platform (iOS + Android) ကိုပြပါရင် Good backup
+
+## Strategy:
+#````
+STEP 1: Build Web Portfolio (HTML/CSS/JS) ✅ DONE
+STEP 2: Build Android App (Kotlin + Compose) ← START HERE
+STEP 3: Build Flutter App (Dart) ← AFTER STEP 2
+STEP 4: Link Both on Website
+STEP 5: Publish on GitHub + Play Store```
