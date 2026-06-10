@@ -1,0 +1,32 @@
+name: Deploy Flutter Web to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Flutter SDK
+        uses: flutter-actions/setup-flutter@v4
+        with:
+          channel: stable
+      
+      - name: Enable Flutter Web
+        run: flutter config --enable-web
+      
+      - name: Install dependencies
+        run: flutter pub get
+      
+      - name: Build Flutter Web
+        run: flutter build web --web-renderer canvaskit
+      
+      - name: Deploy to GitHub Pages
+        uses: bluefireteam/flutter-gh-pages@v7
+        with:
+          baseRef: main
+          webRenderer: canvaskit
