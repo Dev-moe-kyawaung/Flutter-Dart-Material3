@@ -21,4 +21,26 @@ flutter run -d macos
 flutter build apk --release
 
 7. Build for web
-flutter build web```
+flutter build web
+________------
+
+ ## 📱 Flutter App Screenshots Preview
+
+`┌─────────────────────────┐
+│ ⭐ ANDROID SENIOR ⭐   │  ← Tagline (Neon Yellow)
+│                         │
+│    [Avatar Image]       │  ← Glowing Neon Ring
+│                         │
+│  Moe Kyaw Aung          │  ← Gradient Name
+│                         │
+│  ★ Android Developer ▍ ★│  ← Animated Typing
+│                         │
+│  12+  3K+   22  100%    │  ← Stats Cards
+│  Years Apps  Repo  Sat  │
+│                         │
+│  Kotlin ████████ 96%    │  ← Progress Bars
+│  Flutter ███████ 92%    │
+│  Compose ████████ 94%   │
+│                         │
+│  [View GitHub][Contact] │  ← Action Buttons
+└─────────────────────────┘`
